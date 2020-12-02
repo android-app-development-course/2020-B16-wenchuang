@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?><!--<androidx.recyclerview.widget.RecyclerView xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    xmlns:app="http://schemas.android.com/apk/res-auto"-->
+<!--    xmlns:tools="http://schemas.android.com/tools"-->
+<!--    android:id="@+id/list"-->
+<!--    android:name="team.android.schedule.SettingsFragment"-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="match_parent"-->
+<!--    android:layout_marginLeft="16dp"-->
+<!--    android:layout_marginRight="16dp"-->
+<!--    app:layoutManager="LinearLayoutManager"-->
+<!--    tools:context=".ui.settings.SettingsFragment"-->
+<!--    tools:listitem="@layout/fragment_settings_item" />-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center">
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/btn_bg_red"
+        android:padding="5dp"
+        android:text="用户登录"
+        android:textSize="16sp"
+        android:textStyle="bold"
+     />
+
+    <Button
+        android:id="@+id/btn_openWebView"
+        android:layout_marginTop="50dp"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_bg_red"
+        android:padding="5dp"
+        android:text="教务网站导入"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+</LinearLayout>

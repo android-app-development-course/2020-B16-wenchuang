@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Schedule</string>
+    <string name="title_notes">笔记</string>
+    <string name="title_course">课程</string>
+    <string name="title_settings">设置</string>
+
+    <string name="btn_load">导入</string>
+    <string name="btn_quit">离开</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="action_sign_in">Sign in or Register</string>
+</resources>
