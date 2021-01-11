@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:id="@+id/Monday"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="1px"
+        android:layout_marginLeft="1px"
+        android:layout_marginTop="1px"
+        android:orientation="vertical" />
+
+    <LinearLayout
+        android:id="@+id/Tuesday"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="1px"
+        android:layout_marginLeft="1px"
+        android:layout_marginTop="1px"
+        android:orientation="vertical" />
+
+    <LinearLayout
+        android:id="@+id/Wednesday"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="1px"
+        android:layout_marginLeft="1px"
+        android:layout_marginTop="1px"
+        android:orientation="vertical" />
+
+    <LinearLayout
+        android:id="@+id/Thursday"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="1px"
+        android:layout_marginLeft="1px"
+        android:layout_marginTop="1px"
+        android:orientation="vertical" />
+
+    <LinearLayout
+        android:id="@+id/Friday"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="1px"
+        android:layout_marginLeft="1px"
+        android:layout_marginTop="1px"
+        android:orientation="vertical" />
+
+    <LinearLayout
+        android:id="@+id/Saturday"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="1px"
+        android:layout_marginLeft="1px"
+        android:layout_marginTop="1px"
+        android:orientation="vertical" />
+
+    <LinearLayout
+        android:id="@+id/Sunday"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="1px"
+        android:layout_marginLeft="1px"
+        android:layout_marginTop="1px"
+        android:orientation="vertical" />
+
+</LinearLayout>
